@@ -115,6 +115,7 @@ i:hover {
 .search-button:hover {
     border-color: #c6c6c6;
     color: black;
+    cursor: pointer;
 }
 
 footer {
@@ -142,15 +143,7 @@ footer {
 .footer-link a:hover {
     text-decoration: underline;
 }
-
-#privacy {
-    margin-left: auto;
-}
-
-#advertising h2 {
-    padding-left: 2em;
-}
-
+7.5
 #settings h2 {
     padding-right: 2em;
 }
