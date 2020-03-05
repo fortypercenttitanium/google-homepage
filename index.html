@@ -1,65 +1,81 @@
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://kit.fontawesome.com/5bef2bea5a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./reset.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
     <title>Google Homepage</title>
 </head>
 <body>
-    <nav id="navbar">
-        <a href="#">
-            <div class="navlink" id="about"><p>About</p></div>
-        </a>
-        <a href="#">
-            <div class="navlink" id="store"><p>Store</p></div>
-        </a>
-        <a href="#">
-            <div class="navlink" id="gmail"><p>Gmail</p></div>
-        </a>
-        <a href="#">
-            <div class="navlink" id="images"><p>Images</p></div>
-        </a>
-        <a href="#">
-            <div id="apps-selector"><i class="fas fa-th"></i></div>
-        </a>
-        <a href="#">
-            <div id="sign-in"><h3>Sign in</h3></div>
-        </a>
+   <nav id="navbar">
+        <div class="navlink" id="about">
+            <a href="#"><p>About</p></a>
+        </div>
+        
+        <div class="navlink" id="store">
+            <a href="#"><p>Store</p></a>
+        </div>
+        
+        <div class="navlink" id="gmail">
+            <a href="#"><p>Gmail</p></a>
+        </div>
+        
+        <div class="navlink" id="images">
+            <a href="#"><p>Images</p></a>
+        </div>
+        
+        <div class="navlink" id="apps-selector">
+            <a href="#"><img src="/google-homepage/images/apps-selector.png" alt="app selector"></a>
+        </div>
+        
+        <div class="navlink" id="sign-in">
+            <a href="#"><h3>Sign in</h3></a>
+        </div>
     </nav>
     <main id="main">
-        <div id="main-logo">
-            <img src="./images/googlelogo.png">
+        <div class="main-area" id="main-logo">
+            <img src="./images/googlelogo.png" alt="Google Logo">
         </div>
-        <div id="search-bar-container">
-            <i class="fas fa-search"></i>
+        <div class="main-area" id="search-bar-container">
+            <img id="magnifying-glass" class="search-bar-icon" src="/google-homepage/images/search.png" alt="search">
             <input type="search" id="search-bar" name="search">
-            <i class="fas fa-microphone"></i>
+            <img id="voice-search" class="search-bar-icon" src="/google-homepage/images/voice.png" alt="voice search">
         </div>
-        <div id="search-bar-buttons-container">
+        <div class="main-area" id="search-bar-buttons-container">
             <button id="normal-search" class="search-button">Google Search</button>
             <button id="lucky-search" class="search-button">I'm Feeling Lucky</button>
         </div>
     </main>
 
     <footer>
-        <a href="#"><div class="footer-link" id="advertising">
-            <h2>Advertising</h2>
-        </div></a>
-        <a href="#"><div class="footer-link" id="business">
-            <h2>Business</h2>
-        </div></a>
-        <a href="#"><div class="footer-link" id="how-search-works">
-            <h2>How Search Works</h2>
-        </div></a>
-        <a href="#"><div class="footer-link" id="privacy">
-            <h2>Privacy</h2>
-        </div></a>
-        <a href="#"><div class="footer-link" id="terms">
-            <h2>Terms</h2>
-        </div></a>
-        <a href="#"><div class="footer-link" id="settings">
-            <h2>Settings</h2>
-        </div></a>
+        <div class="footer-link" id="advertising">
+            <a href="#">
+                <h2>Advertising</h2>
+            </a>
+        </div>
+        <div class="footer-link" id="business">
+            <a href="#">
+                <h2>Business</h2>
+            </a>
+        </div>
+        <div class="footer-link" id="how-search-works">
+            <a href="#">
+                <h2>How Search Works</h2>
+            </a>
+        </div>
+        <div class="footer-link" id="privacy">
+            <a href="#">
+                <h2>Privacy</h2>
+            </a>
+        </div>
+        <div class="footer-link" id="terms">
+            <a href="#">
+                <h2>Terms</h2>
+            </a>
+        </div>
+        <div class="footer-link" id="settings">
+            <a href="#">
+                <h2>Settings</h2>
+            </a>
+        </div>
     </footer>
 </body>
 
